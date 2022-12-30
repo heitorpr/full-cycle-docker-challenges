@@ -6,7 +6,7 @@ COPY ./src .
 
 RUN go build -o /app/build/
 
-FROM alpine:latest
+FROM scratch
 
 WORKDIR /app
 
